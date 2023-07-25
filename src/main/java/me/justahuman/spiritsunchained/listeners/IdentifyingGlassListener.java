@@ -1,5 +1,8 @@
 package me.justahuman.spiritsunchained.listeners;
 
+import com.slimetraditionaltranslation.Translation;
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
@@ -54,7 +57,7 @@ public class IdentifyingGlassListener implements Listener {
                 final SpiritDefinition definition = spirit.getDefinition();
                 final ChatColor tierColor = SpiritUtils.tierColor(definition.getTier());
                 final ChatColor stateColor = SpiritUtils.stateColor(PersistentDataAPI.getString(currentEntity, Keys.spiritStateKey));
-                final String actionBarMessage = SpiritUtils.getTranslation("messages.identifying_glass.use").replace("{tier_color}", tierColor.toString()).replace("{spirit_name}", ChatUtils.humanize(definition.getType().name())).replace("{state_color}", stateColor.toString()).replace("{state_name}", PersistentDataAPI.getString(currentEntity, Keys.spiritStateKey)).replace("{tier}", String.valueOf(definition.getTier()));
+                final String actionBarMessage = SpiritUtils.getTranslation("messages.identifying_glass.use").replace("{tier_color}", tierColor.toString()).replace("{spirit_name}", Translate.getEntity(Locale.zh_tw, definition.getType())).replace("{state_color}", stateColor.toString()).replace("{state_name}", Translation.MobStatsInfo(PersistentDataAPI.getString(currentEntity, Keys.spiritStateKey))).replace("{tier}", String.valueOf(definition.getTier()));
                 player.sendActionBar(Component.text(actionBarMessage));
             }
         }

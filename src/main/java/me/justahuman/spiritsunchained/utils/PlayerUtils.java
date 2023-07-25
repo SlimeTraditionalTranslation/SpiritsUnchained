@@ -1,5 +1,7 @@
 package me.justahuman.spiritsunchained.utils;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
 
 import me.justahuman.spiritsunchained.SpiritsUnchained;
@@ -31,7 +33,7 @@ public class PlayerUtils {
         final String newKnowledge = currentKnowledge.replace(currentKnowledge.charAt(knowledgeType), 'Y');
         playerData.set(player.getUniqueId()+"."+type, newKnowledge);
         if (!currentKnowledge.equals(newKnowledge)) {
-            player.sendMessage(SpiritUtils.getTranslation("messages.general.learn_knowledge").replace("{mob_type}", ChatUtils.humanize(type.name())));
+            player.sendMessage(SpiritUtils.getTranslation("messages.general.learn_knowledge").replace("{mob_type}", Translate.getEntity(Locale.zh_tw, type)));
         }
     }
 

@@ -1,5 +1,8 @@
 package me.justahuman.spiritsunchained.utils;
 
+import com.slimetraditionaltranslation.Translation;
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.StringUtils;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
@@ -260,7 +263,7 @@ public class SpiritUtils {
     }
 
     private static boolean tryUseSpirit(Player player, ItemStack spiritItem, SpiritDefinition definition, boolean notify) {
-        final String name = ChatColors.color(tierColor(definition.getTier()) + ChatUtils.humanize(definition.getType().name()));
+        final String name = ChatColors.color(tierColor(definition.getTier()) + Translate.getEntity(Locale.zh_tw, definition.getType()));
         final ItemMeta meta = spiritItem.getItemMeta();
         final String state = PersistentDataAPI.getString(meta, Keys.spiritStateKey);
         final Map<String, Object> traitInfo = getTraitInfo(definition.getTrait());
@@ -305,7 +308,7 @@ public class SpiritUtils {
         progress = BigDecimal.valueOf(progress).setScale(2, RoundingMode.HALF_UP).doubleValue();
         PersistentDataAPI.setDouble(meta, Keys.spiritProgressKey, progress);
         PersistentDataAPI.setString(meta, Keys.spiritStateKey, state);
-        lore.set(2, Component.text(getTranslation("names.items.spirit_item.current_state_lore").replace("{state_color}", stateColor(state).toString()).replace("{state}", state)));
+        lore.set(2, Component.text(getTranslation("names.items.spirit_item.current_state_lore").replace("{state_color}", stateColor(state).toString()).replace("{state}", Translation.MobStatsInfo(state))));
         lore.set(5, Component.text(getTranslation("names.items.spirit_item.progress_lore").replace("{progress_bar}", getProgress(progress))));
         lore.set(6, Component.text(getTranslation("names.items.spirit_item.pass_on_lore").replace("{pass_on_progress}", String.valueOf(passOn)).replace("{pass_on_requirement}", String.valueOf(toPass)).replace("{locked}", (PersistentDataAPI.hasBoolean(meta, Keys.spiritLocked) && PersistentDataAPI.getBoolean(meta, Keys.spiritLocked) ? getTranslation("names.items.spirit_item.is_locked") : ""))));
         meta.lore(lore);
@@ -406,7 +409,7 @@ public class SpiritUtils {
 
         final ChatColor tierColor = tierColor(definition.getTier());
         final ChatColor stateColor = stateColor(state);
-        final String spiritType  = ChatUtils.humanize(definition.getType().name());
+        final String spiritType  = Translate.getEntity(Locale.zh_tw, definition.getType());
         final Map<String, Object> traitInfo = getTraitInfo(definition.getTrait());
 
         ((FireworkEffectMeta) itemMeta).setEffect(SpiritUtils.effectColor(definition.getType()));
@@ -422,8 +425,8 @@ public class SpiritUtils {
 
         itemLore.add(Component.text(""));
         itemLore.add(Component.text(getTranslation("names.items.spirit_item.tier_lore").replace("{tier_color}", tierColor.toString()).replace("{tier}", String.valueOf(definition.getTier()))));
-        itemLore.add(Component.text(getTranslation("names.items.spirit_item.current_state_lore").replace("{state_color}", stateColor.toString()).replace("{state}", state)));
-        itemLore.add(Component.text(ChatColors.color(getTranslation("names.items.spirit_item.trait_lore").replace("{trait_name}", (String) traitInfo.get("name")).replace("{trait_type}", (String) traitInfo.get("type")))));
+        itemLore.add(Component.text(getTranslation("names.items.spirit_item.current_state_lore").replace("{state_color}", stateColor.toString()).replace("{state}", Translation.MobStatsInfo(state))));
+        itemLore.add(Component.text(ChatColors.color(getTranslation("names.items.spirit_item.trait_lore").replace("{trait_name}", (String) traitInfo.get("name")).replace("{trait_type}", Translation.ItemType((String) traitInfo.get("type"))))));
         itemLore.add(Component.text(""));
         itemLore.add(Component.text(getTranslation("names.items.spirit_item.progress_lore").replace("{progress_bar}", getProgress(0))));
         itemLore.add(Component.text(getTranslation("names.items.spirit_item.pass_on_lore").replace("{pass_on_progress}", "0").replace("{pass_on_requirement}", String.valueOf(definition.getGoal().getAmount())).replace("{locked}", "")));
@@ -522,7 +525,7 @@ public class SpiritUtils {
         final String type = definition.getType().name();
         final ItemStack book = getFilledBook(type);
         final BookMeta bookMeta = (BookMeta) book.getItemMeta();
-        final String name = ChatUtils.humanize(type) + " Spirit";
+        final String name = Translate.getEntity(Locale.zh_tw, definition.getType()) + "靈魂";
         bookMeta.setAuthor(name);
         bookMeta.setTitle(name);
         book.setItemMeta(bookMeta);

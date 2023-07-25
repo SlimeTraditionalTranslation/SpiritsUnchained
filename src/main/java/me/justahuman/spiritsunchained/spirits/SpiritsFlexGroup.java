@@ -1,5 +1,7 @@
 package me.justahuman.spiritsunchained.spirits;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
 import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuide;
@@ -357,7 +359,7 @@ public class SpiritsFlexGroup extends FlexItemGroup {
         final ItemStack itemStack = new ItemStack(Material.FIREWORK_STAR);
         final ItemMeta itemMeta = itemStack.getItemMeta();
         final ChatColor chatColor = SpiritUtils.tierColor(definition.getTier());
-        final String spiritType  = ChatUtils.humanize(definition.getType().name());
+        final String spiritType  = Translate.getEntity(Locale.zh_tw, definition.getType());
 
         itemMeta.displayName(Component.text(name("spirit_item").replace("{tier_color}", chatColor.toString()).replace("{mob_type}", spiritType)));
         ((FireworkEffectMeta) itemMeta).setEffect(SpiritUtils.effectColor(definition.getType()));

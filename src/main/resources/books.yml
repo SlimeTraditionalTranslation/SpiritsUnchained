@@ -1,404 +1,425 @@
 GUIDE_BOOK:
-  title: Spirit Guide Book
+  title: 靈魂指南書
   author: JustAHuman_xD
   pages:
     0:
-      - "   <u>Table of Contents:<reset>"
+      - "   <u>目錄：<reset>"
       - ""
-      - "Finding Spirits: 2-5"
+      - "尋找靈魂：第 2-5 頁"
       - ""
-      - "Catching Spirits: 6-8"
+      - "捕捉靈魂：第 6-8 頁"
       - ""
-      - "Taming Spirits: 9-14"
+      - "馴化靈魂：第 9-14 頁"
       - ""
-      - "Passing on Spirits: 15-20"
+      - "超渡靈魂：第 15-20 頁"
       - ""
-      - "Spirit Traits: 21-22"
+      - "靈魂特性：第 21-22 頁"
     1:
-      - " <u>Finding Spirits I<reset>"
+      - " <u>尋找靈魂｜一<reset>"
       - ""
-      - "#1. <u>Spirit Lenses<reset>, before you can start to Catch Spirits you need to be able to See them. Spirit Lenses will grant you that ability until you can make your own Spirit Rune and imbue a Helmet with it."
+      - "#1. <u>靈魂透鏡<reset>"
+      - "當你要開始捕捉靈魂之前，你必須要能夠看見它們。靈魂透鏡將會給你這項能力直到你能夠自己製作靈魂符文並注入進頭盔中。"
     2:
-      - " <u>Finding Spirits II<reset>"
+      - " <u>尋找靈魂｜二<reset>"
       - ""
-      - "#2. <u>Identifying Glass<reset>,"
-      - "you will need to craft a Identifying Glass to Identify naturally Roaming Spirits. Otherwise when you catch them you will just get an Un-Identified Spirit."
+      - "#2. <u>識別之鏡<reset>"
+      - "你必須製作識別之鏡來識別在自然中漫遊的靈魂。不然當你捕捉到它們時將會只拿到未識別的靈魂。"
     3:
-      - " <u>Finding Spirits III<reset>"
+      - " <u>尋找靈魂｜三<reset>"
       - ""
-      - "#3. Spirit Spawning Mechanics<reset>, Spirits can spawn 2 ways."
+      - "#3. 靈魂生成機制<reset>"
+      - "靈魂有兩種生成方式。"
       - ""
-      - "#3.a, <u>Naturally Spawning<reset>,"
-      - "Each type of Spirit has specific conditions that need to be met for it to naturally spawn. Time, Dimension, Biome, etc."
+      - "#3.a <u>自然生成<reset>"
+      - "每種類型的靈魂都有自己特定的條件需要達到才會自然生成。例如：時間、維度、生態域等等。"
     4:
-      - " <u>Finding Spirits IV<reset>"
+      - " <u>尋找靈魂｜四<reset>"
       - ""
-      - "#3.b, <u>Released Spirits<reset>, whenever a Player kills a entity when wearing lenses, or an imbued helmet. There is a chance that the entity's spirit will be released. <b>It will always be hostile<reset>. "
+      - "#3.b <u>已釋放的靈魂<reset>"
+      - "當玩家戴著透鏡或是已注入的頭盔殺死實體時。會有機率該實體靈魂被釋放出來。<b>它將永遠是敵對的<reset>。"
     5:
-      - " <u>Catching Spirits I<reset>"
+      - " <u>捕捉靈魂｜一<reset>"
       - ""
-      - "#1. <u>Methods<reset>, there are 3 Methods to Catching Spirits."
+      - "#1. <u>方式<reset>"
+      - "有三種捕捉靈魂的方式。"
       - ""
-      - "#1.a, <u>Bottling<reset>, if you use a glass bottle on a Spirit you can Trap it in the Bottle and use it to make Ectoplasm. "
+      - "#1.a <u>罐裝<reset>"
+      - "如果對靈魂使用玻璃瓶的話，你可以將它困在瓶子之中，並拿來製作靈質。"
     6:
-      - " <u>Catching Spirits II<reset>"
+      - " <u>捕捉靈魂｜二<reset>"
       - ""
-      - "#1.b, <u>Spirit Nets<reset>, the second method to Catching a Spirit is to Use a Spirit Net on it. This method is not a guaranteed Capture. The higher Tier the Spirit the lower the Chance it works."
+      - "#1.b <u>靈魂之網<reset>"
+      - "第二種捕捉靈魂的方式是拿靈魂之網來抓它。這種方式並不保證一定能抓到。靈魂等級越高，成功機率越低。"
     7:
-      - " <u>Catching Spirits III<reset>"
+      - " <u>捕捉靈魂｜三<reset>"
       - ""
-      - "#1.c, <u>Automated Catching<reset>"
-      - "You can also craft a Electric Spirit Catcher. You input Nets and it will catch Spirits in a Radius around it. This is a guaranteed Capture."
+      - "#1.c <u>自動化捕捉<reset>"
+      - "你也可以製作電動靈魂捕捉器。放入靈魂之網後，它將會捕捉機器周圍的靈魂。這是保證捕捉到的方法。"
     8:
-      - " <u>Taming Spirits I<reset>"
+      - " <u>馴化靈魂｜一<reset>"
       - ""
-      - "#1, <u>What is 'Taming'?<reset> When you catch a Spirit it has a State. It can be either: <dark_red>Hostile<reset>, <red>Aggressive<reset>, <dark_grey>Passive<reset>, <green>Gentle<reset>, and <dark_green>Friendly<reset>."
-      - "Chances are, you are going to want your spirit to be one of those Last 2."
+      - "#1. <u>什麼是「馴化」？<reset>"
+      - "當你捕捉到一隻靈魂時，它會有狀態。"
+      - "它可能是：<dark_red>敵對<reset>、<red>侵略性<reset>、<dark_grey>被動<reset>、<green>溫和<reset>和<dark_green>友好<reset>。"
+      - "但你可能會希望你所抓到的靈魂是其中的最後兩種狀態（溫和與友好）。"
     9:
-      - " <u>Taming Spirits II<reset>"
+      - " <u>馴化靈魂｜二<reset>"
       - ""
-      - "#1-Continued,  In order to rise a Spirits State a Level you need to increase the Progress Bar to 100%. There are 2 ways to increase a Spirits Progress Bar."
+      - "#1-繼續 要讓靈魂的狀態等級上升，你必須增加進度欄到 100%。有兩種方式可以增加靈魂的進度欄。"
       - ""
-      - "#1a. <u>Spiritual Altar<reset>, you can build any of the 3 tiers of Altars."
+      - "#1a. <u>靈魂祭壇<reset>"
+      - "你可以建造三種等級的祭壇。"
     10:
-      - " <u>Taming Spirits III<reset>"
+      - " <u>馴化靈魂｜三<reset>"
       - ""
-      - "#1a (Cont). Here are tutorials for Each Tier:"
+      - "#1a （續）．這是每種等級的教學："
       - ""
-      - "Tier 1: /su altar 1"
-      - "Tier 2: /su altar 2"
-      - "Tier 3: /su altar 3"
+      - "等級一：/su altar 1"
+      - "等級一：/su altar 2"
+      - "等級一：/su altar 3"
       - ""
-      - "Once you have constructed the Altar, just stand within it and watch the Spirit's progress increase."
+      - "當你構造出祭壇，只要站在裡面看著靈魂的進度欄增加就行了。"
     11:
-      - " <u>Taming Spirits IV<reset>"
+      - " <u>馴化靈魂｜四<reset>"
       - ""
-      - "#1.a (Cont), depending"
-      - "on the Spirits Tier it will increase by a different amount."
+      - "#1.a (續)"
+      - "根據靈魂的等級它將會增加不同數量的進度。"
       - ""
-      - "#1.b, <st><u>Portable Altar<reset>, <st>Later game you can craft a Portable Altar. It will act as a Spiritual Altar but it's an Item in your Inventory.<reset>"
+      - "#1.b <st><u>可攜帶式祭壇<reset>"
+      - "<st>後期遊戲你將能製作可攜帶式祭壇。它可以就像是靈魂祭壇一樣的功能，但是一種物品形式存在於你的物品欄中。<reset>"
     12:
-      - " <u>Taming Spirits V<reset>"
+      - " <u>馴化靈魂｜五<reset>"
       - ""
-      - "#2. <u>Relations<reset>, Spirits have relations with other Spirits. Weather its because of things that happened when the Spirits were alive, or other. If a Spirit is Afraid of another Spirit it cannot be in the Same Players Inventory."
+      - "#2. <u>關係<reset>"
+      - "靈魂有各自與其他靈魂的關係。這可能是因為在靈魂生前所發生的事情或是其他。如果靈魂害怕另一隻靈魂的化，它就不能在同一個玩家背包中。"
     13:
-      - " <u>Taming Spirits VI<reset>"
+      - " <u>馴化靈魂｜六<reset>"
       - ""
-      - "#2 (Cont), You can view these Relations in the Guide."
+      - "#2 （續）"
+      - "你可以在指南中查看它們之間的關係。"
     14:
-      - " <u>Passing On I<reset>"
+      - " <u>超渡靈魂｜一<reset>"
       - ""
-      - "#1. <u>Passing On<reset>, you can help a Spirit to Pass on. Each Spirit has different Requirements for it to Pass on. View them in Your Guide. When you help a Spirit to Pass On, it will leave you a Gift. "
+      - "#1. <u>超渡<reset>"
+      - "你可以幫助並超渡靈魂。 每個靈魂都有不同的超渡條件。在指南中查看它們。 當你超渡了靈魂，它們會留給你禮物。"
     15:
-      - " <u>Passing On II<reset>"
+      - " <u>超渡靈魂｜二<reset>"
       - ""
-      - "#1.a <u>Locking Spirits<reset>, if you do not want a Spirit to Pass On. Shift Right Click it in your Inventory to Lock it. (You can Unlock a Spirit by doing the Same)"
+      - "#1.a <u>鎖定靈魂<reset>"
+      - "如果你不想意外超渡掉靈魂的話，你可以拿著靈魂蹲下 + 右鍵來鎖定它。（解除鎖定也是相同的方式）"
     16:
-      - " <u>Passing On III<reset>"
+      - " <u>超渡靈魂｜三<reset>"
       - ""
-      - "#2. <u>Requirements<reset>, There are 4 types of Requirements a Spirit can Have."
+      - "#2. <u>要求<reset>"
+      - "有四種靈魂會要求的類型。"
       - ""
-      - "#2.a <u>Item Requirement<reset>, this Spirit will want you to give it # of _ Item. Just click the Spirit Item in your Inventory with the Item it wants in your cursor."
+      - "#2.a <u>物品要求<reset>"
+      - "這個靈魂想要你給它 # 個 _ 物品。 只要將靈魂想要的物品在背包中拿起來，並對著靈魂點擊即可給予。"
     17:
-      - " <u>Passing On IV<reset>"
+      - " <u>超渡靈魂｜四<reset>"
       - ""
-      - "#2.b <u>Slimefun Item Requirement<reset>"
-      - "Similar to the Item Requirement this Spirit wants x amount of _ slimefun item. Click the Spirit item in your inventory with the Slimefun Item it wants in your cursor."
+      - "#2.b <u>黏液科技物品要求<reset>"
+      - "與物品要求差不多，這個靈魂想要你給它 x 數量的 _ 黏液科技物品。 只要將靈魂想要的黏液科技物品在背包中拿起來，並對著靈魂點擊即可給予。"
     18:
-      - " <u>Passing On V<reset>"
+      - " <u>超渡靈魂｜五<reset>"
       - ""
-      - "#2.c, <u>Killing Requirement<reset>,"
-      - "this spirit wants you to kill x amount of _ mob. To Complete this Requirement just kill the mobs with the Spirit in your Inventory."
+      - "#2.c <u>殺死要求<reset>"
+      - "這個靈魂想要你殺死 x 數量的 _ 生物。 要完成這個要求，你要將靈魂帶在身上並殺死指定生物。"
     19:
-      - " <u>Passing On VI<reset>"
+      - " <u>超渡靈魂｜六<reset>"
       - ""
-      - "#2.d, <u>Breeding Requirement<reset>,"
-      - "Similarly to the killing requirement this Spirit wants you to Breed x amount of _ mobs. Just breed the mobs with the Spirit in your Inventory."
+      - "#2.d <u>繁殖要求<reset>"
+      - "與殺死要求差不多，這個靈魂想要你繁殖 x 數量的 _ 生物。 只要將靈魂帶在身上，並繁殖特定的生物。"
     20:
-      - " <u>Spirit Traits I<reset>"
+      - " <u>靈魂特性｜一<reset>"
       - ""
-      - "#1. <u>Spirit Traits<reset>, each Spirit has a Trait. A Trait is the Effect a Spirit will have on you when it's In your Inventory."
+      - "#1. <u>靈魂特性<reset>"
+      - "每個靈魂都有自己的特性。 特性是一種特殊效果當它存在於你的背包之中。"
       - ""
-      - "#1a. <u>Types of Traits<reset>, there are 2 types of Traits. 1. Passive, it will happen constantly with no User Input."
+      - "#1a. <u>特性類型<reset>"
+      - "有兩種類型的特性。"
+      - "1. 被動，它將會持續的給你效果，不需要玩家輸入。"
     21:
-      - " <u>Spirit Traits II<reset>"
+      - " <u>靈魂特性｜二<reset>"
       - ""
-      - "#1.a (Cont), and 2. Ability Traits, these Traits require you the Player to Right Click when holding the Spirit, then Activating the Trait"
+      - "#1.a （續）"
+      - "2. 能力特性，這些特性需要玩家主動拿著靈魂右鍵，然後發動特性效果"
       - ""
-      - "#1.b <u>Trait Activation<reset>, in order for a Trait to Activate, the Spirits state must be Gentle+"
+      - "#1.b <u>特性啟動性<reset>"
+      - "要讓特性啟動，靈魂的狀態必須是溫和以上"
 SHEEP:
   pages:
     0:
-      - "An animal often found grazing the fields of grass of the overworld."
+      - "一種常見於主世界草地上覓食的生物。"
 COW:
   pages:
     0:
-      - "An animal known for its Milk, said to have magical purifying properties."
+      - "一種以其牛奶而名的動物，據說有著魔法般的淨化特性。"
 CHICKEN:
   pages:
     0:
-      - "A slow falling, seed loving, spirit, just living as it wants."
+      - "一種會緩降，種子愛好者，隨心所欲地生活著的生物。"
 PIG:
   pages:
     0:
-      - "A mob best known for it's love of carrots, to the point of being led by them."
+      - "一種以對胡蘿蔔之愛而聞名的生物，同時也被胡蘿蔔之神引導著。"
 PARROT:
   pages:
     0:
-      - "A rare colorful sight, known for its love of Music."
+      - "一種稀有的色彩繽紛的生物，以對音樂的喜愛而聞名。"
 COD:
   pages:
     0:
-      - "A small fish known to swim in schools."
+      - "一種魚類，以群體游泳而聞名。"
 SALMON:
   pages:
     0:
-      - "A big fish easily distinguishable for its dark red scales."
+      - "一種大魚，因其深紅色鱗片而容易辨認。"
 TROPICAL_FISH:
   pages:
     0:
-      - "A bright and rare sight in the deep seas, a fisherman's treasure."
+      - "在深海中，這是一種稀有又明亮的生物，同時也是漁夫的寶藏。"
 SQUID:
   pages:
     0:
-      - "A creature known for its ink, essential for writing."
+      - "一種以墨囊而聞名的生物，對於書寫來說必不可少。"
 OCELOT:
   pages:
     0:
-      - "A wild creature known for its equal rarity and speed."
+      - "一種野生生物，以其極為罕見的敏捷性而聞名。"
 RABBIT:
   pages:
     0:
-      - "A fast and jumpy creature, hunted for it's lucky feet."
+      - "一種快速且愛跳躍的生物，被狩獵的原因都是因為它的幸運腳。"
 BEE:
   pages:
     0:
-      - "A flying creature sought after for its unique ability to utilize flowers for honey."
+      - "一種會飛行的生物，因其使用花朵製造蜂蜜的獨特能力而被追求。"
 SPIDER:
   pages:
     0:
-      - "An eight legged and eight eyed creature, with a unique ability to climb walls."
+      - "一種八條腿和八隻眼睛的生物，具有可以爬上牆壁的獨特能力。"
 CREEPER:
   pages:
     0:
-      - "A deadly mob, equally valuable and dangerous for its explosive ability."
+      - "一種致命的生物，同時因其爆炸能力價值重大且危險。"
 SKELETON:
   pages:
     0:
-      - "An undead creature, known for its skilled use of the Bow."
+      - "一種不死的生物，因其使用弓箭的技術而聞名。"
 ZOMBIE:
   pages:
     0:
-      - "An undead creature, simplistic in nature but powerful en masse."
+      - "一種不死的生物，本質上簡單，但在大量出現時非常強大。"
 SLIME:
   pages:
     0:
-      - "A unique mob, sought out for its precious slime balls with the innate ability to split it self upon death."
+      - "一種獨特的生物，因其珍貴的史萊姆球而被追求，且具有在死亡時自我分裂的能力。"
 ZOMBIFIED_PIGLIN:
   pages:
     0:
-      - "A undead version of the piglins found in the nether, these occur naturally there and normal piglins become them in the overworld."
+      - "在地獄裡找到的豬布林不死生物版本，在地獄中自然生成，而在主世界是由豬布林轉化而成的。"
 SILVERFISH:
   pages:
     0:
-      - "A pesky mob found deep underground with a love of strongholds and stone."
+      - "一種討厭的生物，深藏於地底，喜愛要塞與石頭"
 FOX:
   pages:
     0:
-      - "A sneaky creature with a love for chickens."
+      - "一種狡猾的生物，超喜歡雞。"
 BAT:
   pages:
     0:
-      - "A loud flying creature found deep underground in dark places."
+      - "一種吵雜飛行的生物，深藏於地底黑暗的地方。"
 SNOWMAN:
   pages:
     0:
-      - "A unnatural occurrence, created by combining snow and carved pumpkins, with a funny face beneath its Hat."
+      - "一種非自然現象，是由雪塊與雕刻過的南瓜組合而成，帽子內有著有趣的臉。"
 MUSHROOM_COW:
   pages:
     0:
-      - "A rare phenomenon, only found on the mycelium islands, legends say it changes appearance when striken by lightning."
+      - "一種罕見的生物，只在充滿著菌絲的菌絲島中能找到，傳說中說它是被雷擊中而改變的外貌。"
 STRIDER:
   pages:
     0:
-      - "A unique inhabitant of the nether, the only seen to be  living universally in lava."
+      - "一種獨特的地獄居民，唯一能在岩漿上生活的生物。"
 TURTLE:
   pages:
     0:
-      - "A passive mob with a love of sea grass, its fragile eggs crack under almost any pressure."
+      - "一種溫和的生物，喜愛吃海草，它的蛋幾乎成受不了任何壓力就會破碎。"
 VILLAGER:
   pages:
     0:
-      - "A intelligent mob, one of few, known to deal in terrible trades until saved from the zombie illness."
+      - "一種屬於少數有智慧的生物，眾所皆知，在被從殭屍村民治療好之前，它的交易都非常的差。"
 WANDERING_TRADER:
   pages:
     0:
-      - "A cousin of the villager, afraid of what lurks at night it has learned to brew invisibility potions."
+      - "村民的親戚，因害怕晚上會出現的生物，而獨自學會釀造隱形藥水。"
 PUFFERFISH:
   pages:
     0:
-      - "A poisonous swimmer with a temper."
+      - "一隻劇毒的游泳者，性格相當暴躁。"
 AXOLOTL:
   pages:
     0:
-      - "A intelligent swimmer, one that plays dead when near death, with a love of fish."
+      - "一隻有智慧的游泳者，在接近死亡時會裝死，喜歡魚類。"
 GLOW_SQUID:
   pages:
     0:
-      - "A curiosity of the ocean, its special ink used to illuminate signs and item frames."
+      - "一種海洋之中奇特的生物，它的特殊墨囊能用來照亮告示牌與物品展示框。"
 FROG:
   pages:
     0:
-      - "A rare tropical mob, changing in color based on its home, known for a love of slimes."
+      - "一種罕見的熱帶生物，根據家園而改變顏色，以喜愛史萊姆而聞名。"
 HORSE:
   pages:
     0:
-      - "A true steed, ideal for overworld travel, with a high jump."
+      - "一匹真正的坐騎，適合在主世界中旅行，具有高跳躍的能力。"
 DONKEY:
   pages:
     0:
-      - "A cousin of the horse, lacks the ability to wear armor, but can instead hold a chest."
+      - "馬的親戚，缺少穿戴護甲的能力，但取而代之的是可以裝載上一個儲物箱。"
 MULE:
   pages:
     0:
-      - "A cousin of the horse, lacks the ability to wear armor, but can instead hold a chest."
+      - "馬的親戚，缺少穿戴護甲的能力，但取而代之的是可以裝載上一個儲物箱。"
 CAT:
   pages:
     0:
-      - "A cousin of the ocelot, found uniquely in villages, might even give you a gift after a good nights rest."
+      - "山貓的親戚，在村莊中獨特的出沒，甚至在良好的夜晚睡眠之後可能會送你一份禮物。"
 WOLF:
   pages:
     0:
-      - "A wild inhabitant of the forests, known for its love of bones it can be tamed."
+      - "一種在森林中生活的野生居民，因其對骨頭的喜愛而聞名，可以馴服。"
 LLAMA:
   pages:
     0:
-      - "A rare encounter, wearer of stylish carpet styles, these mobs spit on attackers."
+      - "一種罕見的碰到，穿著時尚的地毯款式，這些生物會向攻擊者吐口水。"
 DOLPHIN:
   pages:
     0:
-      - "A excellent swimmer, one who loves to play with items and blocks, it might even grace you with it's ability."
+      - "一位優秀的游泳者，喜歡與物品和方塊一起玩耍，它甚至會對你展示它的能力給你看。"
 POLAR_BEAR:
   pages:
     0:
-      - "A cold fish loving animal, its as nice to you as you are to it."
+      - "一隻喜愛寒帶魚的動物，對你的友好程度取決於你對它的待遇。"
 PANDA:
   pages:
     0:
-      - "A unique inhabitant of the jungle forests, known for its love of bamboo and its ability to roll."
+      - "一種在叢林中生活的獨特居民，以對竹子的愛與翻滾能力而聞名。"
 GOAT:
   pages:
     0:
-      - "A true mountain climber, with the ability to jump high, and a deadly habit to ram mobs."
+      - "一隻真正的山地攀爬者，擁有高跳躍的能力，並有撞擊生物的致命習性。"
 CAVE_SPIDER:
   pages:
     0:
-      - "A poisonous cousin of the Spider, with less health it relies on its ability."
+      - "蜘蛛的有毒親戚，因其能力而有著比較少的血量。"
 PIGLIN:
   pages:
     0:
-      - "A bargainer of the nether, fascinated by gold and holder of Strange Secrets."
+      - "地獄中的交易者，迷戀黃金，並擁有著奇怪的秘密。"
 PILLAGER:
   pages:
     0:
-      - "A cousin of the Villager, crossbow wielding and the most common of the Illagers."
+      - "村民的死對頭，窳民的種類之一，手持著弩。"
 VINDICATOR:
   pages:
     0:
-      - "Another part of the Illager family, this axe wielding mob will pack a punch."
+      - "窳民家族的另一名成員，揮舞著斧頭而帶來的強大攻擊力。"
 ENDERMAN:
   pages:
     0:
-      - "A rare sight in the overworld, yet overflowing in the end. These unique mobs possess the ability of teleportation and love blocks."
+      - "主世界中的罕見生物，但在終界中卻數量眾多。這些獨特生物有著傳送能力，並喜歡手持方塊。"
 GUARDIAN:
   pages:
     0:
-      - "A thorn covered mob, protector of the ocean monuments."
+      - "被尖刺所覆蓋住的生物，守護著海底神殿。"
 HUSK:
   pages:
     0:
-      - "A cousin of the Zombie, found only in the Deserts, told to have hungering effects."
+      - "僵屍的親戚，只會在沙漠中找到，據說有給予它人飢餓效果的能力。"
 STRAY:
   pages:
     0:
-      - "A cousin of the Skeleton, found only in the coldest of biomes, its arrows inflict a slowing effect."
+      - "骷髏的親戚，只會在最寒冷的生態域中找到，它的箭矢具有著減速效果。"
 PHANTOM:
   pages:
     0:
-      - "A phantom of the night, one that appears only after you have not slept, its secrets are still unknown."
+      - "一隻夜晚的幽靈，只有在你長時間沒睡覺後出現，它的祕密仍然未知。"
 BLAZE:
   pages:
     0:
-      - "A unique inhabitant of the Nether Fortress's, with its ability to shoot fireballs and fly."
+      - "一種獨特的地獄要塞居民，擁有著發射火球與飛行的能力。"
 MAGMA_CUBE:
   pages:
     0:
-      - "A cousin of the Slime, found only in the Nether it has adapted to its new landscape."
+      - "史萊姆的親戚，只會在地獄中找到，它已經適應了新的地形。"
 ZOMBIE_VILLAGER:
   pages:
     0:
-      - "A zombified villager, the infection only curable with the use of weakness and the rare golden apple."
+      - "一種殭屍化的村民，只有用虛弱藥水與稀有的金蘋果才能治癒。"
 DROWNED:
   pages:
     0:
-      - "A cousin of the Zombie, created by a Zombie who falls to the Deep Abyss."
+      - "殭屍的親戚，由掉落於深海深淵之中的殭屍而創造出現。"
 WITCH:
   pages:
     0:
-      - "A cousin of the villager, the witches have learned the art of potion brewing."
+      - "村民的親戚，女巫學會了調製藥水的藝術。"
 HOGLIN:
   pages:
     0:
-      - "A heavy hitting creature, found in the forests of the nether, with a fear of warped fungi."
+      - "一種會重擊的生物，在地獄中的森林能找到，害怕著扭曲蕈菇。"
 ZOGLIN:
   pages:
     0:
-      - "A zombified hoglin, only found when a hoglin ventures to the overworld."
+      - "一種殭屍化的豬布獸，只有在豬布獸冒險進入主世界時而轉化。"
 ZOMBIE_HORSE:
   pages:
     0:
-      - "A zombified horse, the secrets of this mob are still unknown."
+      - "一種殭屍化的馬，這隻生物的秘密仍然未知。"
 SKELETON_HORSE:
   pages:
     0:
-      - "A skeletal horse, a rare sight and utilized by the Skeleton Horseman."
+      - "一隻骷髏版的馬，是一種罕見的生物，並由骷髏騎手騎著。"
 IRON_GOLEM:
   pages:
     0:
-      - "A heavy mob, found in villages and built by players, a true protector."
+      - "一種重型生物，可以由村民與玩家建造，是一個真正的守護者。"
 ENDERMITE:
   pages:
     0:
-      - "A unique mob, only found in the breaking of an ender pearl, hated by enderman."
+      - "一種獨特的生物，只會在打破終界珍珠時機率出現，且被終界使者憎恨著。"
 EVOKER:
   pages:
     0:
-      - "A magical mob, one who has discovered the secrets of life and death."
+      - "一種會魔法的生物，它已經發現了生與死的秘密。"
 RAVAGER:
   pages:
     0:
-      - "A special mob, only found in the ranks of the Pillagers, known to be a strong adversary."
+      - "一種特殊的生物，只會與掠奪者一起看到，被認為是一個強大的對手。"
 SHULKER:
   pages:
     0:
-      - "A rare inhabitant of the End, protector of its cities and the loot to be found inside."
+      - "一種終界中獨特的居民，守護著城市與其中的戰利品。"
 WITHER_SKELETON:
   pages:
     0:
-      - "A cousin of the Skeleton, most often found in Soul Sand Valleys, be wary of its Withering touch."
+      - "骷髏的親戚，最常看到於靈魂砂谷之中，要小心碰到它的凋零效果。"
 ELDER_GUARDIAN:
   pages:
     0:
-      - "A cousin of the Guardian, possessing the ability to give mining fatigue, to protect the treasures of its temple."
+      - "深海守衛的親戚，具有給予挖掘疲勞效果的能力，用於保護遺跡之中的寶藏。"
 WITHER:
   pages:
     0:
-      - "A terrifying creation by man, made by combining withered skulls and sand of souls, known to terrorize the mobs of the overworld."
+      - "由人所製作的恐怖生物，用靈魂砂與凋零骷髏頭組合而成， 憎恨著主世界的所有生物。"
 ENDER_DRAGON:
   pages:
     0:
-      - "A lone mob, protected by magic in the end, defeated for its precious egg."
+      - "一隻孤獨生物，被由終界的魔法保護著，但為了保護最後的生命（蛋）而被擊敗了。"
 WARDEN:
   pages:
     0:
-      - "A terrifying guard of the Ancient Cities, summoned by the Shrieks of lost Souls."
+      - "遠古城市的恐怖守衛者，由迷失的靈魂從尖叫中招喚出來的。"

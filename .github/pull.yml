@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: JustAHuman-xD:master
+    mergeMethod: merge
+    conflictReviewers:
+      - weiii-joe
+      - xhuanfux
+      - xMikux

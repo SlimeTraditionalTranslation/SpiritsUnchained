@@ -1,337 +1,337 @@
 Better_Shears:
-  name: "&fBetter Shears"
+  name: "&f更好的剪羊毛技術"
   type: "Passive"
   lore:
-    - "75% Chance to get Double the Wool when Shearing!"
+    - "在剪羊毛時有 75% 機率獲得雙倍羊毛！"
 Clear_Effects:
-  name: "&fMilk Production"
+  name: "&f牛奶生產"
   cooldown: 10
   type: "Use Item"
   lore:
-    - "On Use will Clear all Potion Effects!"
+    - "使用時清除所有藥水效果！"
 Eggpult:
-  name: "&6Eggpult"
+  name: "&6投蛋器"
   cooldown: 30
   type: "Use Item"
   lore:
-    - "Fire an Explosive Egg!"
+    - "發射會爆炸的蛋！"
 Pig_Rancher:
-  name: "&dPig_Rancher"
+  name: "&d豬豬牧場主"
   type: "Passive"
   lore:
-    - "Become a Pig Rancher"
-    - "Riding a Pig you gain Immense Speed"
+    - "成為豬豬牧場主"
+    - "騎豬時會獲得極高的速度"
 Winged_Creature:
-  name: "&aWinged Creature"
+  name: "&a有翼生物"
   type: "Passive"
   lore:
-    - "Gain passive slowfalling!"
+    - "獲得被動的緩降效果！"
 Aquatic_Creature:
-  name: "&3Aquatic Creature"
+  name: "&3水生生物"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Adapt to the Water with Conduit Power!"
+    - "使用海靈祝福來適應水中！"
 Ink_Spray:
-  name: "&0Ink Spray"
+  name: "&0墨水噴濺"
   cooldown: 30
   type: "Use Item"
   lore:
-    - "Blind any Enemies Around you!"
+    - "讓周圍的敵人全部都失明！"
 Speedy_Escape:
-  name: "&eSpeedy Escape"
+  name: "&e迅速逃脫"
   type: "Passive"
   lore:
-    - "Gain Feline Speed and Escape any Enemies!"
-    - "Triggers when Health below 10%"
+    - "獲得貓一般的速度來逃脫任何敵人！"
+    - "當血量低於 10% 時觸發"
 Hops:
-  name: "&eHops"
+  name: "&e跳跳"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Gain Jump Boost and Hop like a Rabbit!"
+    - "獲得跳躍提升，並跳得就像是隻兔子一樣！"
 Bee_Buddy:
-  name: "&eBee Buddy"
+  name: "&e蜜蜂夥伴"
   cooldown: 10
   type: "Use Item"
   lore:
-    - "Get Honey & Honeycomb!"
+    - "獲得蜂巢和蜂蜜！"
 Webber:
-  name: "&fWebber"
+  name: "&f捕網性"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Trap 3 Near Entities in Webs!"
+    - "將周圍三隻實體困進蜘蛛網中！"
 Explode:
-  name: "&cExplode"
+  name: "&c爆炸"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Release a Deadly Explosion!"
+    - "釋放致命爆炸！"
 Strong_Bones:
-  name: "&fStrong Bones"
+  name: "&f堅韌之骨"
   type: "Passive"
   lore:
-    - "Strengthen your Brittle Bones and Gain Resistance!"
-    - "Triggers when Health below 50%"
+    - "強化你的脆弱骨骼並獲得抗性！"
+    - "當血量低於 50% 時觸發"
 Undead_Protection:
-  name: "&2Undead Protection"
+  name: "&2不死保護"
   type: "Passive"
   lore:
-    - "Any damaging Potion Effects will instead Heal you!"
-    - "(Except for Lingering Potions)"
+    - "任何傷害藥水效果將會治療你！"
+    - "（除了滯留藥水）"
 What_Fall:
-  name: "&aWhat Fall"
+  name: "&a嗯怎麼摔下來了"
   type: "Passive"
   lore:
-    - "Halve your Fall Damage"
+    - "將你的摔落傷害減半"
 Group_Protection:
-  name: "&cGroup Protection"
+  name: "&c群體保護"
   type: "Passive"
   lore:
-    - "Zombie Pigs will no longer Group up on You when Hitting them!"
+    - "殭屍豬人將不再集體攻擊你，當你打它們的時候！"
 Infest:
-  name: "&8Infest"
+  name: "&8寄生"
   cooldown: 10
   type: "Use Item"
   lore:
-    - "Infest the Stone you Use this On!"
+    - "寄生你使用它的石頭！"
 Sly_Fox:
-  name: "&4Sly Fox"
+  name: "&4狡猾之狐"
   type: "Passive"
   lore:
-    - "No Longer take Damage from things like Sweet Berries, Cactus, etc!"
+    - "不再受到甜莓灌木叢、仙人掌等等的傷害！"
 Echolocation:
-  name: "&9Echolocation"
+  name: "&9回聲定位"
   cooldown: 20
   type: "Use Item"
   lore:
-    - "Highlight all Mobs Nearby!"
+    - "標示周圍所有的生物！"
 Frosty:
-  name: "&bFrosty"
+  name: "&b抗寒性"
   type: "Passive"
   lore:
-    - "No Longer Freeze in Powdered Snow!"
+    - "在粉雪中不再凍傷！"
 Stew_Maker:
-  name: "&cStew Maker"
+  name: "&c燉湯師"
   cooldown: 15
   type: "Use Item"
   lore:
-    - "Fill some Available Bowls with Stew"
+    - "用燉湯填充一些可用的碗。"
 Lava_Walker:
-  name: "&4Lava Walker"
+  name: "&4熔岩行走者"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Temporarily Gain the Ability to Walk on Lava!"
+    - "暫時性獲得可以在熔岩上行走的能力！"
 Scute_Shedding:
-  name: "&2Scute Shedding"
+  name: "&2鱗甲脫落"
   type: "Passive"
   lore:
-    - "Gain Shed Turtle Scutes!"
-    - "Have a chance to Drop Scutes when Damaged"
+    - "獲得海龜殼！"
+    - "有機率在受到傷害時掉落海龜殼"
 Villager_Friend:
-  name: "&aVillager Friend"
+  name: "&a村民之友"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Get Better Trades with Villagers!"
-    - "(Gives Hero of the Village V)"
+    - "跟村民交易時獲得更好的交易！"
+    - "（給予村莊英雄 V）"
 Poisonous_Thorns:
-  name: "&2Poisonous Thorns"
+  name: "&2劇毒尖刺"
   type: "Passive"
   lore:
-    - "Thorns damage has a 25% Chance to Inflict Poison!"
+    - "尖刺傷害有 25% 機率造成劇毒！"
 Play_Dead:
-  name: "&dPlay Dead"
+  name: "&d裝死"
   type: "Passive"
   lore:
-    - "Pretend to Die"
-    - "Go Invisible and Gain Regeneration!"
-    - "Triggers at 25% Health"
+    - "假裝死亡"
+    - "變成隱形與獲得回復效果！"
+    - "當血量低於 25% 時觸發"
 Glow_Up:
-  name: "&bGlow Up"
+  name: "&b發光"
   cooldown: 30
   type: "Use Item"
   lore:
-    - "Make any Item Frames & Signs Nearby Glow!"
+    - "讓周圍的任何物品展示框與告示牌發光！"
 Light_It_Up:
-  name: "&eLight It Up"
+  name: "&e點亮它"
   cooldown: 30
   type: "Use Item"
   lore:
-    - "Convert Magma Blocks into Froglights!"
+    - "轉換岩漿塊成蛙光體！"
 High_Jump:
-  name: "&6High Jump"
+  name: "&6高跳"
   cooldown: 15
   type: "Use Item"
   lore:
-    - "Launch yourself high into the Air!"
+    - "將自己高高地發射到空中！"
 Morning_Gift:
-  name: "&eMorning Gift!"
+  name: "&e早安禮！"
   type: "Passive"
   lore:
-    - "Gain a Gift from your Cat after Sleeping!"
+    - "在睡覺後從你的貓那裡獲得一份禮物！"
 Better_Food:
-  name: "&fBetter Food!"
+  name: "&f更優質食物！"
   type: "Passive"
   lore:
-    - "When Eating food get a 30% Chance to double Hunger gained!"
+    - "當吃食物時，有 30% 機率獲得雙倍飢餓值補充！"
 Spitter:
-  name: "&fSpitter"
+  name: "&f吐沫者"
   cooldown: 15
   type: "Use Item"
   lore:
-    - "Spit at your Enemies!"
+    - "吐你的敵人！"
 Dolphin_Swimmer:
-  name: "&3Dolphin Swimmer"
+  name: "&3海豚游泳者"
   type: "Passive"
   lore:
-    - "Get Dolphins Grace when under Water!"
+    - "在水下時獲得海豚悠游！"
 Natural_Fisher:
-  name: "&fNatural Fisher"
+  name: "&f天生漁夫"
   type: "Passive"
   lore:
-    - "Chance to get Fish when Swimming Underwater!"
+    - "在水下游泳時有機率抓到魚！"
 Crunchy_Bamboo:
-  name: "&2Crunchy Bamboo"
+  name: "&2酥脆竹子"
   type: "Passive"
   lore:
-    - "Gain the Ability to Eat Bamboo!"
+    - "獲得能吃竹子的能力！"
 Goats_Instrument:
-  name: "&8Goats Instrument"
+  name: "&8山羊樂器"
   cooldown: 5
   type: "Use Item"
   lore:
-    - "Play a Random Goat Horn Sound!"
+    - "隨機播放山羊角的聲音！"
 Poison_Spray:
-  name: "&2Poison Spray"
+  name: "&2劇毒噴灑"
   cooldown: 30
   type: "Use Item"
   lore:
-    - "Spray a Thick spray of Poison to All nearby Enemies!"
+    - "對周圍所有敵人噴灑一層濃厚的毒液！"
 Strange_Secrets:
-  name: "&dStrange Secrets"
+  name: "&d奇怪的秘密"
   type: "Passive"
   lore:
-    - "Convert Gold to Strange Nether Goo!"
+    - "將金轉換成奇怪的地獄黏液！"
 Multishoot:
-  name: "&8Multishoot"
+  name: "&8多重射擊"
   type: "Passive"
   lore:
-    - "Chance to Gain Multishot...."
-    - "For your Bow!"
+    - "有機率多重射擊……"
+    - "對你的弓！"
 Crit_hit:
-  name: "&6Crit Hit"
+  name: "&6爆擊命中"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Gain Strength 3 for a Small Period of Time!"
+    - "在短時間內獲得力量三效果！"
 Mini_Teleport:
-  name: "&5Mini Teleport"
+  name: "&5小小傳送"
   cooldown: 20
   type: "Use Item"
   lore:
-    - "Randomly Teleport as if Eating a Chorus Fruit!"
+    - "隨機傳送，就像是吃了歌萊果一樣！"
 Nautral_Thorns:
-  name: "&6Natural Thorns"
+  name: "&6自然尖刺"
   type: "Passive"
   lore:
-    - "Gain a Natural Thorns Effect!"
+    - "獲得自然的尖刺效果！"
 Hunger_Hit:
-  name: "&2Hunger Hit"
+  name: "&2飢餓之擊"
   type: "Passive"
   lore:
-    - "Gain a 30% Chance to Inflict Hunger when Hitting your Enemies!"
+    - "當攻擊你的敵人時，有 30% 機率使其有飢餓效果！"
 Slow_Shot:
-  name: "&3Slow Shot"
+  name: "&3緩速射擊"
   type: "Passive"
   lore:
-    - "Gain a 30% Chance to Inflict Slowness when Shooting your Enemies!"
+    - "當射擊你的敵人時，有 30% 機率使其有緩速效果！"
 Sleep_No_More:
-  name: "&9Sleep No More"
+  name: "&9無須睡眠"
   cooldown: 600
   type: "Use Item"
   lore:
-    - "Reset the Timer for Phantoms!"
+    - "重置夜魅的計時器！"
 Blazing_Thorns:
-  name: "&cBlazing Thorns"
+  name: "&c烈焰尖刺"
   type: "Passive"
   lore:
-    - "Get a 25% Chance to Ignite your Attacker!"
+    - "有 25% 機率點燃你的攻擊者！"
 Magma_Trap:
-  name: "&4Magma Trap"
+  name: "&4岩漿陷阱"
   cooldown: 120
   type: "Use Item"
   lore:
-    - "Dunk your Enemies in Lava!"
+    - "將你的敵人丟進熔岩中！"
 Better_Brewer:
-  name: "&5Better Brewer"
+  name: "&5更好的釀造者"
   cooldown: 120
   type: "Use Item"
   lore:
-    - "Brew Water Bottles into Perfected Potions!"
+    - "釀造水瓶成完美的藥水！"
 Heavy_Hit:
-  name: "&eHeavy Hit"
+  name: "&e重擊"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Your next Attack will Launch your Enemy into the Air!"
+    - "你的下一次攻擊將會把你的敵人捶到空中！"
 Iron_Defense:
-  name: "&fIron Defense"
+  name: "&f鐵壁防禦"
   type: "Passive"
   lore:
-    - "Gain a Constant Resistance Buff"
+    - "持續獲得抗性效果！"
 Targeted_Teleport:
-  name: "&dTargeted Teleport"
+  name: "&d目標傳送"
   cooldown: 20
   type: "Use Item"
   lore:
-    - "Teleport in the Direction you are Looking!"
+    - "傳送到你所看的地方！"
 Another_Chance:
-  name: "&eAnother Chance"
+  name: "&e另一個機會"
   type: "Passive"
   lore:
-    - "Another Chance after Death!"
-    - "Triggers when you Die"
+    - "在死亡後的另一個機會！"
+    - "當你死亡時觸發"
 Tank:
-  name: "&8Tank"
+  name: "&8坦克"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Temporarily gain Strength & Resistance 3"
+    - "獲得暫時性的力量三與抗性三"
 Bullet_Swarm:
-  name: "&dBullet Swarm"
+  name: "&d子彈風暴"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Spawn a Swarm of Bullets"
-    - "Targeted for your Enemies"
+    - "產生一群子彈"
+    - "來針對你的敵人"
 Wither_Resistance:
-  name: "&0Wither Resistance"
+  name: "&0凋零抗性"
   type: "Passive"
   lore:
-    - "No longer get Damaged by the Withering Effect"
+    - "不再受到凋零效果的傷害"
 No_Fatigue:
-  name: "&8No Fatigue"
+  name: "&8反挖掘疲勞"
   type: "Passive"
   lore:
-    - "No longer get Slowed by the Mining Fatigue Effect"
+    - "不再因挖掘疲勞的效果而緩慢"
 Skull_Fire:
-  name: "&4Skull Fire"
+  name: "&4發射頭顱"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Fire an Enhanced Wither Skull"
+    - "發射一顆增強的凋零頭顱"
 Dragons_Breath:
-  name: "&dDragons Breath"
+  name: "&d龍之吐息"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Fill Bottles with Dragons Breath"
+    - "用龍息填滿玻璃瓶"
 Dark_Aura:
-  name: "&bDark_Aura"
+  name: "&b黑暗之區"
   cooldown: 60
   type: "Use Item"
   lore:
-    - "Give all nearby Players Darkness and Slowness"
+    - "給予所有周圍的玩家黑暗與緩速效果"

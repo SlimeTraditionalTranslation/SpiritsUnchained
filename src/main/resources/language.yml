@@ -1,260 +1,269 @@
 names:
   spirit_group:
     missing_knowledge:
-      name: "&cMissing Knowledge Piece!"
+      name: "&c缺少知識碎片！"
       lore:
-        - "&7Get &bKnowledge &7by:"
-        - "&7   - Catch the Spirit (Piece 1)"
-        - "&7   - Using a Spirit Book (Piece 2)"
-        - "&7   - Getting the Spirit to the Friendly State! (Piece 3)"
+        - "&7通過以下方式獲得&b知識&7："
+        - "&7   - 捕捉靈魂（碎片 1）"
+        - "&7   - 使用靈魂之書（碎片 2）"
+        - "&7   - 使靈魂變為友善狀態（碎片 3）"
     afraid_item:
-      name: "&fAfraid Of"
+      name: "&f害怕"
       lore:
-        - "&7This Spirit is afraid of the Spirits Shown Below"
+        - "&7這隻靈魂害怕下方所顯示的靈魂"
     scare_item:
-      name: "&5Scares"
+      name: "&5嚇壞"
       lore:
-        - "&7This Spirit Scares the Spirits Shown Below"
+        - "&7這隻靈魂嚇壞下方所顯示的靈魂"
     relation_book:
-      name: "&aRelations"
+      name: "&a關係"
       lore:
         - ""
-        - "&7Click to Open"
+        - "&7點擊打開"
     goal:
-      name: "&bPass on Task:"
+      name: "&b超渡課題："
       kill:
-        label: "&bType: &7Kill Mob"
-        value: "&bTask: &7Kill {amount_and_mob}"
+        label: "&b類型：&7殺死生物"
+        value: "&b課題：&7殺死 {amount_and_mob}"
       item:
-        label: "&bType: &7Give Item"
-        value: "&bTask: &7Give {amount_and_item}"
+        label: "&b類型：&7給予物品"
+        value: "&b課題：&7給予 {amount_and_item}"
       slimefun_item:
-        label: "&bType: &7Give Slimefun Item"
-        value: "&bTask: &7Give {amount_and_item}"
+        label: "&b類型：&7給予黏液科技物品"
+        value: "&b課題：&7給予 {amount_and_item}"
       breed:
-        label: "&bType: &7Breed Mobs"
-        value: "&bTask: &7Breed {amount_and_mob}"
+        label: "&b類型：&7繁殖生物"
+        value: "&b課題：&7繁殖 {amount_and_mob}"
     trait_item:
-      name: "&aTrait"
+      name: "&a特性"
       lore:
         - ""
-        - "&bTrait: {trait_name}"
-        - "&7(Click For Description)"
-      open: "&7(Click To Close Description)"
+        - "&b特性：{trait_name}"
+        - "&7（點擊查看介紹）"
+      open: "&7（點擊關閉介紹）"
     spirit_item:
-      name: "{tier_color}{mob_type} Spirit"
+      name: "{tier_color}{mob_type}靈魂"
       lore:
-        - "&fThe Captured Spirit of a {mob_type}"
-        - "&fTier: {tier_color}{tier}"
+        - "&f被捕捉的{mob_type}靈魂"
+        - "&f等級：{tier_color}{tier}"
   groups:
-    main_group: "&aSpirits Unchained"
-    crafting_materials: "&aCrafting Materials"
-    tools: "&aTools"
-    machines: "&aMachines"
-    spirits: "&aSpirits"
-    altar_1: "&aTier 1 Altar"
-    altar_2: "&aTier 2 Altar"
-    altar_3: "&aTier 3 Altar"
+    main_group: "&a靈魂解放"
+    crafting_materials: "&a製作材料"
+    tools: "&a工具"
+    machines: "&a機器"
+    spirits: "&a靈魂"
+    altar_1: "&a祭壇（等級一）"
+    altar_2: "&a祭壇（等級二）"
+    altar_3: "&a祭壇（等級三）"
   researches:
-    materials: "Spiritual Materials"
-    tools: "Spiritual Tools"
-    machines: "Spiritual Machines"
-    altar_1: "Spiritual Altar I"
-    altar_2: "Spiritual Altar II"
-    altar_3: "Spiritual Altar III"
+    materials: "靈魂材料"
+    tools: "靈魂工具"
+    machines: "靈魂機器"
+    altar_1: "靈魂祭壇 I"
+    altar_2: "靈魂祭壇 II"
+    altar_3: "靈魂祭壇 III"
   recipe_type:
     spirit_interact:
-      name: "&fUse On Spirit"
+      name: "&f使用在靈魂上"
       lore:
         - ""
-        - "&7Use the Item on the Right on any Spirit"
+        - "&7右鍵使用該物品在任何靈魂上"
   items:
     infused_membrane:
-      name: "&5Infused Membrane"
+      name: "&5已注入的皮膜"
       lore:
         - ""
-        - "&7A Membrane infused with Magic"
+        - "&7注入著魔法的皮膜"
     infused_feather:
-      name: "&5Infused Feather"
+      name: "&5已注入的羽毛"
       lore:
         - ""
-        - "&7A Feather infused with Magic"
+        - "&7注入著魔法的羽毛"
     soul_stained_glass:
-      name: "&5Soul Stained Glass"
+      name: "&5靈魂染色玻璃"
       lore:
         - ""
-        - "&7Peer into Another Plane"
+        - "&7窺視另一個位面"
     ectoplasm:
-      name: "&aEctoplasm"
+      name: "&a靈質"
       lore:
         - ""
-        - "&7Attained from those Impassable"
+        - "&7從那些無法通過的地方獲得"
     unidentified_spirit:
-      name: "&fUnidentified Spirit"
+      name: "&f未識別靈魂"
       lore:
         - ""
-        - "&7A Captured Unidentified Spirit"
-        - "&7Useless on its Own"
+        - "&7一隻已被捕捉到的未識別靈魂"
+        - "&7本身沒什麼作用"
     spirit_bottle:
-      name: "&fSpirit in a Bottle"
+      name: "&f瓶中之魂"
       lore:
         - ""
-        - "&7A Spirit in a Bottle"
-        - "&7Use it to get Ectoplasm"
+        - "&7靈魂在瓶子之中"
+        - "&7用於獲得靈質"
     spirit_guide_book:
-      name: "&dSpirit Guide Book"
+      name: "&d靈魂指南書"
       lore:
         - ""
-        - "A Comprehensive Guide to the Art"
-        - "Of Spirit Hunting"
+        - "靈魂狩獵的完美藝術指南"
     identifying_glass:
-      name: "&dIdentifying Glass"
+      name: "&d識別之鏡"
       lore:
         - ""
-        - "Identify Un-Identified Spirits"
+        - "識別未被識別的靈魂"
     spirit_lenses:
-      name: "&dSpirit Lenses"
+      name: "&d靈魂透鏡"
       lore:
         - ""
-        - "&7Unlock the Ability to See &dSpirits"
-        - "&7While Wearing these Lenses"
+        - "&7當戴著透鏡時能"
+        - "&7解放可看見&d靈魂&7的能力 "
     spirit_net:
-      name: "&aSpirit Net"
+      name: "&a靈魂之網"
       lore:
         - ""
-        - "&7Use this to catch a Spirit!"
+        - "&7用這個來捕捉靈魂！"
     spirit_book:
-      name: "&aSpirit Book"
+      name: "&a靈魂之書"
       lore:
         - ""
-        - "&7A Book Spirits can Write in!"
+        - "&7一種可以讓靈魂寫入的書！"
     spirit_rune:
-      name: "&7Ancient Rune &8&l[&d&lSpirit&8&l]"
+      name: "&7古代魔法符文 &8&l[&d&l靈&8&l]"
       lore:
         - ""
-        - "&eDrop this rune onto a dropped &dHelmet &eto"
-        - "&egrant the ability to &dsee &ea different realm"
-        - "&eShift Left Click on Helmet Once Added to Toggle Visibility"
-      tag: "&dImbued"
+        - "&e將此符文放在&d頭盔&e上"
+        - "&e來獲得&d看見&e不同位面的能力"
+        - "&e拿著頭盔蹲下左鍵可以切換可見性"
+      tag: "&d靈"
     electric_spirit_catcher:
-      name: "&aElectric Spirit Catcher"
+      name: "&a電動靈魂捕捉器"
       lore:
         - ""
-        - "&7Automatically catch Spirits"
-        - "&7By catching the Spirits in a Radius of 10 blocks around the Machine."
+        - "&7自動化捕捉靈魂"
+        - "&7透過抓取機器周圍範圍十格方塊的靈魂。"
         - ""
     electric_spirit_bottler:
-      name: "&aElectric Spirit Bottler"
+      name: "&a電動靈魂罐裝器"
       lore:
         - ""
-        - "&7Automatically bottle Spirits"
-        - "&7By bottling the Spirits in a Radius of 10 blocks around the Machine."
+        - "&7自動罐裝靈魂"
+        - "&7透過罐裝機器周圍十格方塊的靈魂。"
         - ""
     electric_spirit_writer:
-      name: "&aElectric Spirit Writer"
+      name: "&a電動靈魂書寫機"
       lore:
         - ""
-        - "&7Automatically let Spirits Write to A Spirit Book"
-        - "&7By inputting a Captured Spirit and a Spirit Book to the Machine"
+        - "&7自動化讓靈魂寫靈魂書"
+        - "&7透過放入已捕捉靈魂與靈魂之書到機器中"
         - ""
     altars:
       lore:
         - ""
-        - "&7Used to Build a Spiritual Altar"
+        - "&7用於建造靈魂祭壇"
     charged_quartz_1:
-      name: "&eCharged Quartz I"
+      name: "&e充靈石英方塊 I"
     charged_stairs_1:
-      name: "&eCharged Stairs I"
+      name: "&e充靈石英階梯 I"
     charged_core_1:
-      name: "&eCharged Core I"
+      name: "&e充靈核心 I"
     charged_quartz_2:
-      name: "&eCharged Quartz II"
+      name: "&e充靈石英方塊 II"
     charged_pillar_2:
-      name: "&eCharged Pillar II"
+      name: "&e充靈石英柱 II"
     charged_stairs_2:
-      name: "&eCharged Stairs II"
+      name: "&e充靈石英階梯 II"
     charged_core_2:
-      name: "&eCharged Core II"
+      name: "&e充靈核心 II"
     charged_quartz_3:
-      name: "&eCharged Quartz III"
+      name: "&e充靈石英方塊 III"
     charged_pillar_3:
-      name: "&eCharged Pillar III"
+      name: "&e充靈石英柱 III"
     charged_stairs_3:
-      name: "&eCharged Stairs III"
+      name: "&e充靈石英階梯 III"
     charged_core_3:
-      name: "&eCharged Core III"
+      name: "&e充靈核心 III"
     smooth_charged_quartz_3:
-      name: "&eSmooth Charged Quartz III"
+      name: "&e充靈平滑石英方塊 III"
     smooth_charged_stairs_3:
-      name: "&eSmooth Charged Stairs III"
+      name: "&e充靈平滑石英階梯 III"
     spirit_item:
-      name: "{tier_color}{mob_type} Spirit"
-      tier_lore: "&fTier: {tier_color}{tier}"
-      current_state_lore: "&fCurrent State: {state_color}{state}"
-      trait_lore: "&fUse: {trait_name}&f: {trait_type}"
-      progress_lore: "&fProgress: {progress_bar}"
-      pass_on_lore: "&fPass On: &c{pass_on_progress}/{pass_on_requirement} {locked}"
-      is_locked: "&4(LOCKED)"
+      name: "{tier_color}{mob_type}靈魂"
+      tier_lore: "&f等級：{tier_color}{tier}"
+      current_state_lore: "&f目前狀態：{state_color}{state}"
+      trait_lore: "&f特性：{trait_name}&f｜發動：{trait_type}"
+      progress_lore: "&f進度：{progress_bar}"
+      pass_on_lore: "&f超渡狀態：&c{pass_on_progress}/{pass_on_requirement}{locked}"
+      is_locked: "&4（已鎖定）"
 messages:
   general:
-    learn_knowledge: "You have gained new knowledge about your {mob_type} Spirit!"
-    no_permission: "&cYou do not have the required permissions in this area!"
-    no_permission_entity_interact: "&cYou do not have Entity Interaction Permissions in this area!"
+    learn_knowledge: "你獲得了關於你的{mob_type}靈魂知識！"
+    no_permission: "&c你沒有此區域所需的權限！"
+    no_permission_entity_interact: "&c你沒有此區域的實體互動權限！"
   commands:
     altar:
-      use: "&6Visualizing &eTier {altar_tier} Altar&6!"
-      materials: "&6Required Materials: "
+      use: "&6視覺化&e等級 {altar_tier} 祭壇&6！"
+      materials: "&6所需建材："
       error:
-        altar_tier: "&cNot a Valid Altar Tier!"
-        altar_multiple: "&cYou can only Visualize 1 Altar at a Time!"
+        altar_tier: "&c不是有效的祭壇等級！"
+        altar_multiple: "&c你一次只能視覺化一座祭壇！"
     particles:
-      error: "&cNot a Proper Particle Test"
+      error: "&c不是正確的粒子效果屬性"
     give_spirit:
-      error: "&cNot a Valid Spirit Type!"
+      error: "&c不是有效的靈魂類型！"
     summon_spirit:
-      error: "&cNot a Valid Spirit Type!"
+      error: "&c不是有效的靈魂類型！"
     edit_item:
       error:
-        not_holding: "&cYou are not holding a Spirit Item!"
-        wrong_state: "&cNot a valid Spirit State!"
-        wrong_progress: "&cNot a proper Progress Value!"
+        not_holding: "&c你沒有拿著靈魂物品！"
+        wrong_state: "&c不是有效的靈魂狀態！"
+        wrong_progress: "&c不是正確的進度數值！"
     reset_cooldown:
-      error: "&cThat Player is not Online!"
+      error: "&c該玩家並未在線上！"
   spirits:
-    escape: "&cThe Spirit Escaped the Net!"
-    max_knowledge: "&cYou can't gain anymore knowledge from a Book!"
-    rip_book: "&cThe Spirit rips the Book to Shreds!"
-    pass_on: "{tier_color}{spirit_name} Spirit has Passed on!"
-    locked: "&cLocked &fHeld Spirit!"
-    unlocked: "&aUnlocked &fHeld Spirit!"
-    try_craft: "&cYou can't craft with a Spirit!"
+    escape: "&c靈魂掙脫了網子！"
+    max_knowledge: "&c你無法在從書上獲得更多知識了！"
+    rip_book: "&c靈魂將書撕碎了！"
+    pass_on: "{tier_color}{spirit_name}靈魂已超渡！"
+    locked: "&c已鎖定&f手上的靈魂！"
+    unlocked: "&a已解除鎖定&f手上的靈魂！"
+    try_craft: "&c你不能用靈魂合成！"
   altar:
-    broken: "&bPart of the altar has been broken, please repair it and reactivate it!"
-    complete_prompt: "&bFinish your Altar and click this block again to activate it!"
-    not_completed: "&bThe Altar is not finished!"
+    broken: "&b祭壇的部分已被破壞，請修復它並重新啟動它！"
+    complete_prompt: "&b完成你的祭壇並再度點擊這個方塊一次來啟動它！"
+    not_completed: "&b祭壇尚未完成！"
     completed:
-      1: "&bThe Spiritual Altar (Tier 1) has been activated!"
-      2: "&bThe Spiritual Altar (Tier 2) has been activated!"
-      3: "&bThe Spiritual Altar (Tier 3) has been activated!"
+      1: "&b靈魂祭壇已被啟動！（等級一）"
+      2: "&b靈魂祭壇已被啟動！（等級二）"
+      3: "&b靈魂祭壇已被啟動！（等級三）"
   spirit_rune:
-    not_helmet: "&dThe thrown Item is not a Helmet!"
-    imbued: "&dYour Helmet is now Imbued with the Ability to See Spirits!"
-    multiple_helmets: "&dYour Helmet could not be Imbued!"
-    multiple_runes: "&dOny use 1 Rune!"
-    toggled_on: "&dToggled On Visibility"
-    toggled_off: "&dToggled Off Visibility"
+    not_helmet: "&d所丟出的物品並不是頭盔！"
+    imbued: "&d你的頭盔已被注入靈的能力，現在能夠看見靈魂了！"
+    multiple_helmets: "&d你的頭盔無法被注入靈！"
+    multiple_runes: "&d一次使用一個符文！"
+    toggled_on: "&d已切換開啟可見性"
+    toggled_off: "&d已切換關閉可見性"
   identifying_glass:
-    use: "&fSpirit Type: {tier_color}{spirit_name}   &fCurrent State: {state_color}{state_name}   &fTier: {tier_color}{tier}"
+    use: "&f靈魂類型：{tier_color}{spirit_name}   &f目前狀態：{state_color}{state_name}   &f等級：{tier_color}{tier}"
   traits:
-    incorrect_state: "{tier_color_and_mob_type} Spirit Must be Gentle or Higher!"
-    passive: "{trait_name} is a Passive Trait!"
-    on_cooldown: "{trait_name} on Cooldown! ({cooldown}s)"
-    used: "{trait_name} Used!"
-    used_passive: "{tier_color_and_mob_type} Passive Activated!"
-    not_enough_progress: "{tier_color_and_mob_type} Spirit Does not have high enough Progress! ({progress}/{required_progress})"
-    error: "{mob_type}'s Trait encountered an Error! Please open a bug report on github!"
+    incorrect_state: "{tier_color_and_mob_type}靈魂的狀態必須是溫和以上！"
+    passive: "{trait_name}是被動特性！"
+    on_cooldown: "{trait_name}正在冷卻！（{cooldown} 秒）"
+    used: "{trait_name}已使用！"
+    used_passive: "{tier_color_and_mob_type}被動已啟用！"
+    not_enough_progress: "{tier_color_and_mob_type}靈魂沒有足夠高的進度！（{progress}/{required_progress}）"
+    error: "{mob_type} 的特性出現錯誤！請回報到 GitHub！"
     cooldown:
-      strong_bones: "&fCooldown Started for Strong Bones! &7(1 1/2 Minutes)"
-      play_dead: "&fCooldown Started for &dPlay Dead! &7(1 Minute)"
-      speedy_escape: "&fCooldown Started for &eSpeedy Escape! &7(1 Minute)"
-      morning_gift: "&fCooldown Started for &eMorning Gift! &7(20 Minutes)"
+      strong_bones: "&f堅韌之骨的冷卻已開始！&7（1/2 分鐘）"
+      play_dead: "&d裝死&f的冷卻已開始！&7（1 分鐘）"
+      speedy_escape: "&e迅速逃脫&f的冷卻已開始！&7（1 分鐘）"
+      morning_gift: "&e早安禮&f的冷卻已開始！&7（20 分鐘）"
+translation_extra:
+  mob_stats:
+    hostile: "敵對"
+    aggressive: "侵略性"
+    passive: "被動"
+    gentle: "溫和"
+    friendly: "友好"
+  item_type:
+    use_item: "使用物品"
+    passive: "被動"

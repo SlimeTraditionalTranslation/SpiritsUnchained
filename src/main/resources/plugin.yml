@@ -1,6 +1,6 @@
 name: SpiritsUnchained
 author: JustAHuman-xD
-description: Spirits Unchained is a Slimefun Addon that introduces Spirits and more to Slimefun4!
+description: 黏液科技附加「靈魂解放」繁體中文版。
 main: me.justahuman.spiritsunchained.SpiritsUnchained
 website: https://github.com/JustAHuman-xD/SpiritsUnchained
 version: ${project.version}

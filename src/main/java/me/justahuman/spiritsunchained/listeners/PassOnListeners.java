@@ -1,5 +1,7 @@
 package me.justahuman.spiritsunchained.listeners;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
@@ -127,6 +129,6 @@ public class PassOnListeners implements Listener {
         toDrop.setAmount(SpiritUtils.random(min, max));
         PlayerUtils.addOrDropItem(player, toDrop);
         ParticleUtils.passOnAnimation(player.getLocation());
-        player.sendMessage(SpiritUtils.getTranslation("messages.spirits.pass_on").replace("{tier_color}", String.valueOf(SpiritUtils.tierColor(tier))).replace("{spirit_name}", ChatUtils.humanize(type.name())));
+        player.sendMessage(SpiritUtils.getTranslation("messages.spirits.pass_on").replace("{tier_color}", String.valueOf(SpiritUtils.tierColor(tier))).replace("{spirit_name}", Translate.getEntity(Locale.zh_tw, type)));
     }
 }
