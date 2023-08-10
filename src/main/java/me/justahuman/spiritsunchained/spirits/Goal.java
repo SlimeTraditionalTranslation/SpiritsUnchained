@@ -1,5 +1,6 @@
 package me.justahuman.spiritsunchained.spirits;
 
+import com.slimetraditionaltranslation.Translation;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
@@ -42,20 +43,20 @@ public class Goal {
 
     private ItemStack createDisplayStack() {
         final String addition = amount > 1 ? "s" : "";
-        final String loreEnd = amount + " " + ChatUtils.humanize(requiredType);
+        final String loreEnd = "x" + amount + " " + Translation.GoalLoreEnd(requiredType);
         final String name = translate("name");
         final ItemStack kill = new CustomItemStack(
                 Material.DIAMOND_SWORD,
                 name,
                 "",
-                translate("kill.label") + addition,
+                translate("kill.label"),
                 translate("kill.value").replace("{amount_and_mob}", loreEnd)
         );
         final ItemStack item = new CustomItemStack(
                 Material.STICK,
                 name,
                 "",
-                translate("item.label") + addition,
+                translate("item.label"),
                 translate("item.value").replace("{amount_and_item}", loreEnd)
         );
         if (goalType.equals("Item")) {
@@ -69,7 +70,7 @@ public class Goal {
                 Material.SLIME_BALL,
                 name,
                 "",
-                translate("slimefun_item.label") + addition,
+                translate("slimefun_item.label"),
                 translate("slimefun_item.value").replace("{amount_and_item}", loreEnd)
         );
         if (goalType.equals("SlimefunItem")) {

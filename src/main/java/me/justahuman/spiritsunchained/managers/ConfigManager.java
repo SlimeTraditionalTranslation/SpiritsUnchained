@@ -104,7 +104,7 @@ public class ConfigManager {
     }
 
     public void save() {
-        LogUtils.logInfo("Saving Player Data");
+        LogUtils.logInfo("儲存玩家資料");
         final File file = new File(SpiritsUnchained.getInstance().getDataFolder(), "player-data.yml");
         try {
             playerData.save(file);
